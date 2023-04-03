@@ -459,3 +459,4 @@ void Indivisual(FILE *fp)
         another=getchar();
     }
 }
+
