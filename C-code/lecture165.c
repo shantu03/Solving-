@@ -4,19 +4,16 @@
 #define AND && //1st
 #define OR ||   //2nd
 #define condition (a>10 AND a<40)   //3rd
-#define Hello printf("\nTHis is awesome"); //4th
+#define Hello printf("\nTHis is awesome") //4th
 #define area(x) (3.147 * x * x) // 5th 
-#define LOOP for(int i=0;i<10;i++)\              //6th -- check this description  below
-{\
-printf(" %d\t",i);\
-}
+
 void main()
 {
 
 //--------------------------------------------------------------------
 //this is for 6th 
 
-LOOP
+
 /*In 6th if you want to add more lines to #define macro expansion type then use "\" this where you want to add line 
 the you can add line. for ex chech above */
 
@@ -33,8 +30,8 @@ printf("\n THe result is %f and %f",area(r1),area(r2));
 
 // This is for 4th
 
-Hello
-Hello
+Hello;
+Hello;
 
 //--------------------------------------------------------------------------------
     //This is for 3no.

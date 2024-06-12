@@ -6,7 +6,7 @@ void lar();
 void even();
 void main()
 {
-    even();
+    // even();
     float *p,sum=0;
     int n,i;
     printf("ENter the number of interger you want to sum ");
@@ -30,7 +30,9 @@ void main()
         
         printf("\n Sum is %f",sum);
         free(p); 
+        
     }
+    
 }  
 void even()
 {
@@ -49,7 +51,7 @@ void even()
         }
         for(i=0;i<n;i++)
         {
-        if(*(p+i)/2!=0)
+        if(*(p+i)/2!=1)
         {
             a[i]=*(p+i);
         }
