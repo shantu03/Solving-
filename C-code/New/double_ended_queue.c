@@ -5,7 +5,11 @@
 Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
+/* two types 
+  *1.input restircted queue- one option for input but two for output
+  2.output restircted queue - one for output but two for input
 
+  */
 #include <stdio.h>
 #define max 5
 int front=-1,rear=-1,arr[max],item;
